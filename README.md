@@ -4,7 +4,22 @@
 
 Instalar este proyecto de Laravel 9
 
+- composer install
 
+- cp .env.example .env
+
+- php artisan key:generate
+
+- .env
+
+DB_CONNECTION=pgsql
+DB_HOST=localhost
+DB_PORT=5432
+DB_DATABASE=posgrado
+DB_USERNAME=postgres
+DB_PASSWORD=***YOUR_PASSWORD
+
+- php artisan serve
 
 ## About Laravel
 
